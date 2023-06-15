@@ -8,3 +8,4 @@ public interface CustomerService {
     public Customer promoteCustomer(Long customerId );
     Customer getCustomerById(Long customerId);
 }
+

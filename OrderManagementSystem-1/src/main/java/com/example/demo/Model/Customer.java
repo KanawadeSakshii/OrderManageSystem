@@ -46,6 +46,15 @@ public class Customer implements Serializable{
 	}
 
 	
+	
+
+	public Customer(String name, int orderCount, CustomerCategory customerType) {
+		super();
+		this.name = name;
+		this.orderCount = orderCount;
+		this.customerType = customerType;
+	}
+
 	public String getName() {
 		return name;
 	}
